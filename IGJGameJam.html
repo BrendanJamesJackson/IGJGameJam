@@ -269,6 +269,8 @@ I have errands to run. The sun is shining and, as always, the second moon is lee
 &lt;br&gt;
 &lt;img src=&quot;images/window_day.png&quot;&gt;
 /*Cue sound effect here*/
+&lt;&lt;cacheaudio &quot;openfridge&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_0ee08db286804525a6be02fca18d82fc.mp3&quot;&gt;&gt; 
+&lt;&lt;audio openfridge play&gt;&gt;
 Damn, no milk. I’ll have to [[add|add milk]] that to my to-do list. 
 &lt;/div&gt;
 
@@ -293,6 +295,9 @@ To Do List:
 My first task for errand day is always to water my succulents. Otherwise they would die. They sit on the windowsill of the kitchen, getting just the right amount of sun. But lately they’ve been looking quite worse-for-wear. They must be craving something other than water and sunlight.
 &lt;br&gt;
 /*water sound*/
+&lt;&lt;cacheaudio &quot;waterPlants&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_5f954ff2ab824a6cb6b476aa9b0cab64.mp3&quot;&gt;&gt; 
+&lt;&lt;audio waterPlants play&gt;&gt;
+
 No, I might have forgotten to water them last week somehow.
 &lt;&lt;set _img1 = &quot;images/plants2.png&quot;&gt;&gt;
 &lt;&lt;set _img2 = &quot;images/plants2.png&quot;&gt;&gt;
@@ -330,6 +335,8 @@ The power must have tripped. I’ll have to [[go down into the basement]].
 
 &lt;span class=&quot;darktext&quot;&gt;The basement is pitch black. Of course the light switch has no effect. I didn’t even think to grab a flashlight. I feel my way to the switches.&lt;/span&gt;
 /*Creaking stair noise*/
+&lt;&lt;cacheaudio &quot;stairs&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_f6623a20166b49318fb0e33db3e8b92a.mp3&quot;&gt;&gt; 
+&lt;&lt;audio stairs play&gt;&gt;
 &lt;br&gt;
 [[Let there be light]]. /*switch noise*/
 &lt;/div&gt;
@@ -371,6 +378,9 @@ Now I can contend with my physical mail. I have some letters [[to send]] far awa
 &lt;/div&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="to send" tags="" position="363,387" size="100,100">&lt;&lt;nobr&gt;&gt;
 /*add audio*/
+&lt;&lt;cacheaudio &quot;mailbox&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_21b222f996904594a12ae90e6c2b6a64.mp3&quot;&gt;&gt; 
+&lt;&lt;audio mailbox play&gt;&gt;
+
 &lt;&lt;set _img1 = &quot;images/mailbox1.png&quot;&gt;&gt;
 &lt;&lt;set _img2 = &quot;images/mailbox2.png&quot;&gt;&gt;
 /*insert picture*/
@@ -382,7 +392,7 @@ Ouch, I’m bleeding. Just a papercut, of course.
 &lt;br&gt;
 The mailbox is looking a bit rusty. I could get something for it when I [[go to the hardware store|tunnel]].
 &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="tunnel" tags="" position="528,445" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="tunnel" tags="" position="528,447" size="100,100">&lt;&lt;nobr&gt;&gt;
 /*water drop sound*/
 &lt;&lt;cacheaudio &quot;tunnel&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_cd4844cdff204b4ab7221ab47256237f.mp3&quot;&gt;&gt;
 &lt;&lt;audio tunnel loop play&gt;&gt;
@@ -398,6 +408,8 @@ The shadows are always playing tricks on my eyes. I’ll just pick up my pace as
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="hardware store" tags="" position="693,470" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;&lt;audio &quot;:all&quot; stop&gt;&gt;
 /*store bell sound*/
+&lt;&lt;cacheaudio &quot;openDoor&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_a9a8c46b39e24fcf9874d4f7bc02e3d3.mp3&quot;&gt;&gt; 
+&lt;&lt;audio openDoor play&gt;&gt;
 &lt;div class=&quot;gentext&quot;&gt;
 
 The owner of the hardware store has always been very passionate about his work. He goes above and beyond to ensure his customers are happy.
@@ -410,12 +422,15 @@ The shelves are fully stocked. I need a saw. Things need to be chopped. There’
 &lt;br&gt;
 I choose one that’s just right for my needs. I pay for it. Now I can [[go to the barber]].
 &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="go to the barber" tags="" position="841,219" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="go to the barber" tags="" position="842,218" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;div class=&quot;gentext&quot;&gt;
 
 The barber shop smells of disinfectant, shampoo, and… something else. Something familiar. I’m greeted cheerfully. The barber beckons to a chair and I take a seat. 
 &lt;br&gt;
 /*haircut sound*/
+&lt;&lt;cacheaudio &quot;haircut&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_886649c27fe544e4819cb307de75a412.mp3&quot;&gt;&gt; 
+&lt;&lt;audio haircut play&gt;&gt;
+
 &lt;&lt;set _img1 = &quot;images/barber1.png&quot;&gt;&gt;
 &lt;&lt;set _img2 = &quot;images/barber2.png&quot;&gt;&gt;
 &lt;img @src=_img1 
@@ -468,6 +483,9 @@ I’m finally on my way to buy milk. There’s a dog on the side of the road. It
 &lt;img @src=_img1 
 onmouseover=&quot;this.src = SugarCube.State.temporary.img2&quot; onmouseleave=&quot;this.src = SugarCube.State.temporary.img1&quot;&gt;
 /*growling noise*/
+&lt;&lt;cacheaudio &quot;dogGrowl&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_942ca440ee6347b5bde90c0bab2b965b.mp3&quot;&gt;&gt; 
+&lt;&lt;audio dogGrowl play&gt;&gt;
+
 Or is it…? No, can’t be.
 &lt;br&gt;
 It’s probably just dirty. Its fur must be matted. 
@@ -476,6 +494,8 @@ Nevermind. I need to [[get to the grocery store]].
 &lt;/div&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="get to the grocery store" tags="" position="941,573" size="100,100">&lt;&lt;nobr&gt;&gt;
 /*buzzing fridge sound*/
+&lt;&lt;cacheaudio &quot;buzzing&quot; &quot;https://static.wixstatic.com/mp3/cd6e16_9d2e42a13af54662a03140f2ec1238ad.mp3&quot;&gt;&gt; 
+&lt;&lt;audio buzzing loop play&gt;&gt;
 &lt;div class=&quot;gentext&quot;&gt;
 It’s getting dark now but the grocery store is painfully bright. The fluorescent lights reveal how old and dingy the store is. I head to the fridge section.
 &lt;br&gt;
@@ -489,6 +509,7 @@ onmouseover=&quot;this.src = SugarCube.State.temporary.img2&quot; onmouseleave=&
 The cashier smiles. It seems like she knows I can see now. I can cross off the final task on my to-do list and [[go home]]. 
 &lt;/div&gt;
 &lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="go home" tags="" position="397,576" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;audio &quot;:all&quot; stop&gt;&gt;
 &lt;div class=&quot;gentext&quot;&gt;
 Today was… eye-opening. 
 All this time I had convinced myself of a false reality. I had been living in ignorance of my true surroundings.
@@ -529,7 +550,7 @@ Sabelo Nkwanyana
 &lt;br&gt;
 Brendan Jackson
 &lt;/div&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="Menu" tags="" position="137,84.5" size="100,100">&lt;&lt;nobr&gt;&gt;
+&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="Menu" tags="" position="137,84" size="100,100">&lt;&lt;nobr&gt;&gt;
 &lt;div class=&quot;gentext&quot;&gt;
 &lt;span class=&quot;bold&quot;&gt;An Ordinary Day &lt;/span&gt;
 /*picture*/
